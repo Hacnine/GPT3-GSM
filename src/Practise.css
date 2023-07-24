@@ -1,0 +1,15 @@
+div {
+    background-color:#87cefa;
+
+  }
+  
+  div.first {
+    border:  Tomato;
+    border-style: groove;
+    border-left: 200px;
+  }
+
+  p.second {
+    border-left: inherit;
+  }
+  

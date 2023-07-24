@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gradient and Background Example</title>
+  <style>
+    :root {
+      --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+      --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+      --color-bg: #040C18;
+      --color-footer: #031B34;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--color-bg);
+      color: white;
+      text-align: center;
+    }
+
+    .header {
+      padding: 30px;
+      background-image: var(--gradient-text);
+    }
+
+    .content {
+      padding: 50px;
+    }
+
+    .bar {
+      width: 200px;
+      height: 20px;
+      margin: 30px auto;
+      background-image: var(--gradient-bar);
+    }
+
+    .footer {
+      padding: 20px;
+      background-color: var(--color-footer);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Welcome to My Website</h1>
+    <p>This is a sample website with gradient and background colors.</p>
+  </div>
+
+  <div class="content">
+    <h2>Content Section</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at suscipit ipsum. Ut et tellus facilisis, convallis velit eget, lacinia nisi.</p>
+    <div class="bar"></div>
+    <p>More content here...</p>
+  </div>
+
+  <div class="footer">
+    <p>Contact information | All rights reserved.</p>
+  </div>
+</body>
+</html>
